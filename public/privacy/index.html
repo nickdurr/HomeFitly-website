@@ -269,17 +269,8 @@
     </header>
 
     <main>
-        <!--
-          FINAL privacy policy (prepared 20 Oct 2026; not published by Claude). Publish BEFORE any production
-          child sign-up or production KWS verification (PUBLICATION-CHECKLIST.md, step 1). Set the effective date.
-          Before publishing, replace the two [OWNER] contact fields in Section 14 (COPPA notice: operator name,
-          address, telephone and email; FTC six-step plan and COPPA FAQ). Do not invent them.
-          Section 12 states truthfully that 12-year-old accounts are being introduced, so it's accurate both
-          before and after Epic production is enabled. Age-assurance signals (App Store Declared Age Range,
-          Google Play Age Signals) must be added here when that integration ships; it's not in this text.
-        -->
         <h1 class="page-title">Privacy Policy</h1>
-        <span class="effective-date">Effective Date: [OWNER: set on publication]</span>
+        <span class="effective-date">Effective Date: October 20, 2026</span>
 
         <p class="intro-text">
             HomeFitly is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, how it is stored, and the choices you have regarding your data. By using HomeFitly, you agree to the practices described in this policy.
@@ -292,7 +283,7 @@
                 HomeFitly is a home maintenance and management application designed to help homeowners stay on top of tasks, warranties, projects, and household organization. We built HomeFitly with a privacy-first mindset: we do not serve advertisements, we do not include advertising or third-party analytics SDKs, and we never sell your personal data to third parties. One exception to note: receipt scanning on Android uses Google's on-device text recognition (ML Kit), which sends Google limited diagnostic information, as described in Section 5.
             </p>
             <p>
-                This policy applies to the HomeFitly apps for iPhone and iPad and for Android, and to the associated services. If you have questions about this policy, you can reach us at <a href="mailto:support@homefitly.com">support@homefitly.com</a>.
+                HomeFitly is operated by DataVerse Studios LLC. This policy applies to the HomeFitly apps for iPhone and iPad and for Android, the homefitly.com website, and the associated services. If you have questions about this policy, you can reach us using the contact details in Section 14.
             </p>
         </section>
 
@@ -318,6 +309,13 @@
                 <li>Home features (e.g., pool, HVAC system type)</li>
                 <li>Yard size and pet types</li>
                 <li>Household size and family name</li>
+            </ul>
+
+            <h3>Website and Support</h3>
+            <ul>
+                <li><strong>Launch waitlist</strong> — if you sign up on our website, we store your email address and your choice of iPhone or Android in Supabase so we can send the launch notice you requested. You can ask to leave the waitlist and have this information deleted by emailing <a href="mailto:support@homefitly.com">support@homefitly.com</a>.</li>
+                <li><strong>Website visits</strong> — GitHub Pages hosts this website and logs visitors' IP addresses for security, including when visitors are not signed into GitHub. See Section 5.</li>
+                <li><strong>Support requests</strong> — when you contact us, we receive your contact details and the information you choose to include so we can respond. Please do not send passwords or identity-verification documents to HomeFitly support.</li>
             </ul>
 
             <h3>Task and Maintenance Data</h3>
@@ -377,6 +375,7 @@
                 <li><strong>Sync data across devices</strong> — for Premium members, synchronize your data securely so you can access it across your devices, on iPhone and Android.</li>
                 <li><strong>Verify memberships</strong> — confirm your subscription with Apple or Google, or a complimentary membership, so Premium works on every device where you sign in to the same HomeFitly account.</li>
                 <li><strong>Provide customer support</strong> — respond to your inquiries and resolve issues when you contact us.</li>
+                <li><strong>Send a requested launch notice</strong> — use your website waitlist email and platform choice to notify you when HomeFitly launches for that platform.</li>
                 <li><strong>Process authentication</strong> — verify your identity when you sign in and facilitate password resets.</li>
             </ul>
             <p>We do <strong>not</strong> use your data for advertising, and we do <strong>not</strong> sell, rent, or trade your personal information to any third party.</p>
@@ -400,12 +399,13 @@
             <p>HomeFitly integrates with a limited number of third-party services, each necessary for core functionality. We do not use any advertising SDKs or third-party analytics platforms.</p>
             <ul>
                 <li><strong>Supabase</strong> — provides authentication (email/password, and Sign in with Apple on iPhone and iPad), cloud database storage, private file storage, and data synchronization. Supabase processes your account credentials and synced app data. <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase Privacy Policy</a>.</li>
+                <li><strong>GitHub Pages</strong> — hosts homefitly.com and records visitor IP addresses for security. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" target="_blank" rel="noopener noreferrer">GitHub Pages data collection</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>.</li>
                 <li><strong>Apple App Store and Google Play Billing</strong> — handle in-app purchase and subscription transactions. Payment information is managed entirely by Apple or Google; HomeFitly never receives or stores your credit card or payment details. Our server checks your purchase with Apple or Google to confirm your membership. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</li>
                 <li><strong>Google ML Kit text recognition (Android)</strong> — reads receipt text on your device. When it is used, Google receives limited diagnostic and usage information: device model and operating system, app package and version, performance and error information, technical details of the request (such as image format and size), and a device identifier. <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener noreferrer">Google's ML Kit data disclosure</a>.</li>
                 <li><strong>Sign in with Apple (iPhone and iPad, optional)</strong> — Apple shares your Apple ID identifier and, if you allow it, your email address or a private relay address with HomeFitly.</li>
                 <li><strong>Kids Web Services (KWS), from Epic Games</strong> — confirms that a parent is an adult before a 12-year-old's account can be created. HomeFitly sends KWS the parent's account email address, the child's country or region, the parent's language and a random one-time reference code. The reference code isn't anonymous: in our records it links the verification to the parent's request, the invitation and the parent's account. KWS's own terms and privacy policy apply to the verification. <a href="https://www.kidswebservices.com/" target="_blank" rel="noopener">Kids Web Services</a>.</li>
             </ul>
-            <p>Apart from the providers listed above, no third party receives information from HomeFitly. No data brokers or advertisers receive information from HomeFitly.</p>
+            <p>HomeFitly uses these providers to operate the service. We do not share your information with data brokers or advertisers.</p>
         </section>
 
         <!-- 6. Premium Memberships -->
@@ -543,9 +543,9 @@
             <h2>14. Contact Us</h2>
             <p>If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:</p>
             <div class="contact-box">
-                <p><strong>HomeFitly</strong>, operated by Dataverse Studios, LLC</p>
-                <p>Mailing address: [OWNER: public mailing address &mdash; required before publication]</p>
-                <p>Telephone: [OWNER: public telephone number &mdash; required before publication]</p>
+                <p><strong>HomeFitly</strong>, operated by DataVerse Studios LLC</p>
+                <p>Mailing address:<br>5900 Balcones Dr Ste 100<br>Austin, TX 78731-4298<br>United States</p>
+                <p>Telephone: <a href="tel:+12145517986">+1 214 551 7986</a></p>
                 <p>Email: <a href="mailto:support@homefitly.com">support@homefitly.com</a></p>
             </div>
             <p style="margin-top: 16px;">We aim to respond to general inquiries within 2 business days. For formal privacy or data requests, we respond within 30 days.</p>
